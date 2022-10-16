@@ -13,3 +13,4 @@
 * Icons - 
 https://fonts.google.com/icons?icon.query=html
 
+* For all photos: Pexels under the license https://www.pexels.com/license/
