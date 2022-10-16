@@ -7,5 +7,5 @@ function refresh() {
 }
 
 document.getElementById("random-number").innerHTML = generateRandomNumber();
-document.getElementsByClass(".reload").addEventListener("click", refresh());
+//document.getElementsByClassName("reload").addEventListener("click", refresh());
 
