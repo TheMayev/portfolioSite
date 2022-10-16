@@ -117,9 +117,51 @@ p {
   font-size: 1em; 
 }
 
-.foto {
-  text-align: center;
+.first-but {
+  display: flex; 
+  justify-content: end;
 }
+
+.reload {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: 1.8px solid black;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+} 
+
+.reload span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.reload span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.reload:hover span {
+  padding-right: 25px;
+}
+
+.reload:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 .skills-items {
   display: flex; 
