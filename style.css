@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
   display: block;
@@ -162,7 +166,25 @@ p {
   right: 0;
 }
 
+h3,
+.pro-text {
+  text-align: center;
+}
 
+.projects-container {
+  display: flex; 
+  flex-wrap: no-wrap;
+  gap: 30px; 
+  justify-content: space-around;
+}
+
+.pro-element {
+  display: block;
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
 
 .skills-items {
   display: flex; 
@@ -174,22 +196,6 @@ p {
 
 .skil-item {
   margin: 8px; 
-}
-
-.projects-table {
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-
-
-}
-
-.project-element {
-  display: flex;
-  margin: 8px; 
-  padding: 8px; 
-  border: 2px groove black; 
 }
 
 .cont {
