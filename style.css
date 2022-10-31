@@ -163,6 +163,7 @@ p {
 }
 
 
+
 .skills-items {
   display: flex; 
   list-style-type: none; 
@@ -175,6 +176,21 @@ p {
   margin: 8px; 
 }
 
+.projects-table {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+
+}
+
+.project-element {
+  display: flex;
+  margin: 8px; 
+  padding: 8px; 
+  border: 2px groove black; 
+}
 
 .cont {
   text-align: center;
@@ -225,6 +241,8 @@ footer {
   padding: 10px 0px;
   margin-top: auto; 
   text-align: center;
+  border-top: 2px solid black; 
+
 }
 
 a:hover {
