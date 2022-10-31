@@ -168,16 +168,13 @@ p {
   list-style-type: none; 
   padding: 0px; 
   flex-wrap: wrap; 
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 .skil-item {
   margin: 8px; 
 }
 
-.material-icons.md-48 {
-  font-size: 48px; 
-}
 
 .cont {
   text-align: center;
@@ -235,3 +232,11 @@ a:hover {
   color:white;
 }
 
+
+h4 {
+  text-align: start;
+}
+
+.credits {
+  font-size: 0.8em;
+}
