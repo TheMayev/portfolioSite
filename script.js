@@ -1,11 +1,14 @@
+
+let randomNumber = document.getElementById("random-number");
+let reloadButton = document.getElementsByClassName('reload')[0];
+
 function generateRandomNumber() {
-  return Math.floor(Math.random() * 100)
+  return Math.floor(Math.random() * 50) + 1
 }
 
-function refresh() {
-  window.location.reload();
-}
 
-document.getElementById("random-number").innerHTML = generateRandomNumber();
+reloadButton.addEventListener('click', function() {
+  randomNumber.innerHTML = generateRandomNumber(); 
+});
 
-
+ 
